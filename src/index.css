@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #08080a;
+    color: #e4e4e7;
+    overflow-x: hidden;
+  }
+}
+
+.font-pantheon {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-iron {
+  font-family: 'Oswald', 'Barlow Condensed', sans-serif;
+  letter-spacing: 0.04em;
+}
+
+/* Atmospheric Noise / Radial Glows */
+.bg-grid-iron {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+.gold-glow {
+  box-shadow: 0 0 40px -10px rgba(212, 175, 55, 0.25);
+}
+
+.gold-border-glow {
+  border-color: rgba(212, 175, 55, 0.35);
+  box-shadow: 0 0 25px -5px rgba(212, 175, 55, 0.15);
+}

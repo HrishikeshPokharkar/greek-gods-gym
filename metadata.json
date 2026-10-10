@@ -1,0 +1,6 @@
+{
+  "name": "Greek Gods Gym - Hardcore Elite Iron Sanctuary",
+  "description": "Where mortals become gods. A dark, aggressive, and elite bodybuilding facility engineered for legacy, uncompromising strength, and Olympic mastery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
